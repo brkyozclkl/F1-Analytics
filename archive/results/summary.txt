@@ -1,0 +1,79 @@
+F1 Race Prediction System - Results Summary
+==================================================
+
+Model Performance:
+--------------------
+
+random_forest:
+mse: 0.4353
+rmse: 0.6598
+mae: 0.2368
+r2: 0.9671
+explained_variance: 0.9671
+position_accuracy: 0.9669
+top_3_accuracy: 0.9864
+points_accuracy: 0.9802
+error_std: 0.6598
+error_25th: -0.0294
+error_median: 0.0000
+error_75th: 0.0600
+
+gradient_boosting:
+mse: 0.5537
+rmse: 0.7441
+mae: 0.4910
+r2: 0.9582
+explained_variance: 0.9582
+position_accuracy: 0.9254
+top_3_accuracy: 0.9617
+points_accuracy: 0.9778
+error_std: 0.7441
+error_25th: -0.3033
+error_median: -0.0095
+error_75th: 0.3092
+
+xgboost:
+mse: 0.1532
+rmse: 0.3915
+mae: 0.2264
+r2: 0.9884
+explained_variance: 0.9884
+position_accuracy: 0.9903
+top_3_accuracy: 0.9826
+points_accuracy: 0.9836
+error_std: 0.3913
+error_25th: -0.1337
+error_median: -0.0006
+error_75th: 0.1182
+
+lightgbm:
+mse: 0.1296
+rmse: 0.3599
+mae: 0.2019
+r2: 0.9902
+explained_variance: 0.9902
+position_accuracy: 0.9925
+top_3_accuracy: 0.9809
+points_accuracy: 0.9836
+error_std: 0.3598
+error_25th: -0.1207
+error_median: -0.0025
+error_75th: 0.1006
+
+Top 5 Drivers by Total Points:
+--------------------
+full_name
+Lewis Hamilton      4820.5
+Sebastian Vettel    3098.0
+Max Verstappen      2912.5
+Fernando Alonso     2329.0
+Kimi Räikkönen      1873.0
+
+Top 5 Constructors by Total Points:
+--------------------
+constructor_name
+Ferrari     11091.27
+Mercedes     7730.64
+Red Bull     7673.00
+McLaren      7022.50
+Williams     3641.00
